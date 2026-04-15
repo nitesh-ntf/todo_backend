@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/todos", todoRoutes);
+app.use("/api/todos", todoRoutes);
 
 // Root route - bas ek welcome message
 app.get("/", (req, res) => {
