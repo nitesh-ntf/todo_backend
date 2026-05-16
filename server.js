@@ -17,7 +17,7 @@ app.use("/api/todos", todoRoutes);
 
 // Root route - bas ek welcome message
 app.get("/", (req, res) => {
-  res.json({ message: "Kaam Karle Bhai API chal rahi hai! 🚀" });
+  res.json({ message: "Kaam Karle Bhai ci/cd autodeploy  chal rahi hai! 🚀" });
 });
 
 // MongoDB se connect karo
